@@ -1,6 +1,6 @@
 import { ServiceCard2 } from "components/reuseable/service-cards";
 // CUSTOM DATA
-import { serviceList2 } from "data/service";
+import { techServiceList } from "data/service";
 // CUSTOM UTILS LIBRARY FUNCTIONS
 import { slideInDownAnimate } from "utils/animation";
 
@@ -21,7 +21,7 @@ export default function Services13() {
         </div>
 
         <div className="row gx-md-8 gy-8 text-center text-white">
-          {serviceList2.map((item) => (
+          {techServiceList.map((item) => (
             <ServiceCard2 {...item} key={item.id} titleColor="text-white" hiddenBtn />
           ))}
         </div>

@@ -2,7 +2,7 @@ import { Tiles4 } from "components/elements/tiles";
 import IconBox from "components/reuseable/IconBox";
 import { ServiceCard3 } from "components/reuseable/service-cards";
 // CUSTOM DATA
-import { serviceList2 } from "data/service";
+import { techServiceList } from "data/service";
 
 export default function Services8() {
   return (
@@ -19,7 +19,7 @@ export default function Services8() {
         </p>
 
         <div className="row gx-xl-10 gy-6">
-          {serviceList2.map(({ title, id, icon }) => (
+          {techServiceList.map(({ title, id, icon }) => (
             <div className="col-md-6 col-lg-12 col-xl-6" key={id}>
               <ServiceCard3
                 title={title}

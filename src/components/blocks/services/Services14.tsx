@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { ServiceCard6 } from "components/reuseable/service-cards";
 // CUSTOM DATA
-import { serviceList2 } from "data/service";
+import { techServiceList } from "data/service";
 
 export default function Services14() {
   return (
@@ -23,7 +23,7 @@ export default function Services14() {
         <div className="shape bg-dot primary rellax w-16 h-17" style={{ top: "-0.5rem", left: "-2.5rem", zIndex: 0 }} />
 
         <div className="row gx-md-5 gy-5 text-center">
-          {serviceList2.map((item) => (
+          {techServiceList.map((item) => (
             <ServiceCard6 key={item.id} {...item} />
           ))}
         </div>

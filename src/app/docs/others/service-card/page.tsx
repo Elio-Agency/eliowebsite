@@ -14,7 +14,7 @@ import {
 } from "markups/others/service-cards";
 // CUSTOM DATA
 import data from "data/career-page-1";
-import { serviceList1, serviceList2, serviceList7 } from "data/service";
+import { serviceList1, techServiceList, serviceList7 } from "data/service";
 const quickAccess = [
   { title: "Service Card 1", url: "snippet-1" },
   { title: "Service Card 2", url: "snippet-2" },
@@ -76,7 +76,7 @@ export default function ServiceCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gx-md-8 gy-8 text-center">
-              {serviceList2.slice(0, 2).map(({ id, description, icon, linkUrl, title }) => (
+              {techServiceList.slice(0, 2).map(({ id, description, icon, linkUrl, title }) => (
                 <div className="col-md-6" key={id}>
                   <IconBox icon={icon} className="icon btn btn-circle btn-lg btn-primary pe-none mb-5" />
                   <h4>{title}</h4>
@@ -204,7 +204,7 @@ export default function ServiceCards() {
         <div className="card">
           <div className="card-body mb-n2">
             <div className="row gy-5 text-center">
-              {serviceList2.slice(0, 2).map((item) => (
+              {techServiceList.slice(0, 2).map((item) => (
                 <div className="col-lg-6" key={item.id}>
                   <div className="card">
                     <div className="card-body">
