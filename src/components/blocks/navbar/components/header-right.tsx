@@ -28,7 +28,7 @@ export default function HeaderRight({
     <div className={navOtherClass}>
       <ul className="navbar-nav flex-row align-items-center ms-auto">
         {/* ============= language dropdwown ============= */}
-        {language ? <Language /> : null}
+        {/* {language ? <Language /> : null} */}
 
         {/* ============= info button ============= */}
         {info ? (
