@@ -25,14 +25,14 @@ export default function ServiceCard1({
   iconClassName = "",
 }: ServiceCard1Props) {
   return (
-    <div className="col-md-6 col-xl-3">
+    <div className="col-md-6 col-xl-4">
       <div className={`card shadow-lg ${cardClassName}`}>
         <div className="card-body">
           <div className="h-10 w-full mb-4 flex items-center justify-center">
             <Icon className={iconClassName} />
           </div>
           <h4>{title}</h4>
-          <p className="mb-2">{description} hh</p>
+          <p className="mb-2">{description}</p>
           {/* <NextLink
             title="Learn More"
             href={linkUrl}

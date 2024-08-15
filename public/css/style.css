@@ -27286,6 +27286,7 @@ blockquote.text-center.icon-top:before {
   padding-left: 1rem;
 }
 .blockquote-details .icon-img img {
+  display: none;
   width: 3.5rem !important;
 }
 

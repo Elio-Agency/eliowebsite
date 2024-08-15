@@ -12,7 +12,7 @@ export default function Services8() {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="display-4 mb-3">What We Do?</h2>
+        <h2 className="display-4 mb-3"> Our Services</h2>
         <p className="lead fs-lg mb-8 pe-xxl-2">
           The full service we are offering is <span className="underline">specifically</span> designed to meet your
           business needs and projects.

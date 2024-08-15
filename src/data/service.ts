@@ -392,15 +392,6 @@ export const serviceList11 = [
     description: `Highlight areas for improvement and key insights through advanced analytics.`
   },
   {
-    id: 1,
-    link: '#',
-    Icon: TeamTwo,
-    title: 'Social Media',
-    linkType: LinkType.violet,
-    iconClassName: 'icon-svg-sm solid-mono text-violet mb-3',
-    description: `If you struggle with social media and getting new eyes on your business, our content team are for you.`
-  },
-  {
     id: 4,
     link: '#',
     Icon: Telephone,

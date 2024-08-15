@@ -16,13 +16,13 @@ export default function ContactThree() {
           stickyBox={false}
           logoAlt="elio-logo-small-white"
           navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark"
-          button={
-            <NextLink
-              title="Contact"
-              href="contact"
-              className="btn btn-sm btn-primary rounded-pill"
-            />
-          }
+          // button={
+          //   <NextLink
+          //     title="Contact"
+          //     href="contact"
+          //     className="btn btn-sm btn-primary rounded-pill"
+          //   />
+          // }
         />
       </header>
 
@@ -48,9 +48,9 @@ export default function ContactThree() {
 
             <div className="flex-row items-center justify-center">
               <div className="flex-row items-center justify-center col-xl-10 mx-auto">
-                <div className="flex-row justify-center">
+                <div className="flex-col justify-center">
                   {/* ========== contact form section ========== */}
-                  <div className="col-lg-8">
+                  <div>
                     <ContactForm />
                   </div>
                 </div>

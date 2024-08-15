@@ -10,37 +10,46 @@ export default function Services10() {
             <div className="row">
               <div className="col-lg-12">
                 <figure className="rounded mb-6">
-                  <img src="/img/photos/se1.jpg" srcSet="/img/photos/se1@2x.jpg 2x" alt="" />
+                  <img
+                    src="/img/photos/builder1.png"
+                    srcSet="/img/photos/builder1@2x.png 2x"
+                    alt=""
+                  />
                 </figure>
               </div>
 
               <div className="col-lg-12">
-                <ServiceCard5
-                  url="#"
-                  icon="uil-monitor"
-                  title="Web Design"
-                  description="Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
-                />
+                <figure className="rounded mb-6">
+                  <img
+                    src="/img/photos/plumber1.png"
+                    srcSet="/img/photos/plumber1@2x.png 2x"
+                    alt=""
+                  />
+                </figure>
               </div>
             </div>
           </div>
 
           <div className="col-md-6">
             <div className="row">
-              <div className="col-lg-12 order-md-2">
-                <figure className="rounded mb-6 mb-md-0">
-                  <img src="/img/photos/se2.jpg" srcSet="/img/photos/se2@2x.jpg 2x" alt="" />
+              <div className="col-lg-12">
+                <figure className="rounded mb-6">
+                  <img
+                    src="/img/photos/logistics1.png"
+                    srcSet="/img/photos/logistics1@2x.png 2x"
+                    alt=""
+                  />
                 </figure>
               </div>
 
               <div className="col-lg-12">
-                <ServiceCard5
-                  url="#"
-                  title="Mobile Design"
-                  icon="uil-mobile-android"
-                  className="card shadow-lg mb-md-6 mt-lg-6"
-                  description="Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
-                />
+                <figure className="rounded mb-6">
+                  <img
+                    src="/img/photos/solar-panel1.png"
+                    srcSet="/img/photos/solar-panel1@2x.png 2x"
+                    alt=""
+                  />
+                </figure>
               </div>
             </div>
           </div>
@@ -48,20 +57,30 @@ export default function Services10() {
       </div>
 
       <div className="col-lg-5 offset-lg-1">
-        <h2 className="display-4 mb-3">What We Do?</h2>
+        <h2 className="display-4 mb-3">About Us</h2>
 
         <p className="lead fs-lg lh-sm">
-          The full service we are offering is specifically designed to meet your business needs.
+          We build bespoke software for physical service businesses.
         </p>
 
         <p>
-          Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam
-          quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis elit interdum.
-          Duis mollis, est non commodo luctus, nisi erat ligula.
+          We have worked with a variety of businesses to help them navigate the
+          digital landscape and make software work for them.
         </p>
+        <ul>
+          <li>Construction Businesses</li>
+          <li>Property Development</li>
+          <li>Logistics Businesses</li>
+          <li>Plumbing Companies</li>
+          <li>Leak Detection Services</li>
+          <li>Tattoo Artists</li>
+        </ul>
 
-        <NextLink title="More Details" href="#" className="btn btn-primary rounded-pill mt-3" />
+        <NextLink
+          title="Get In Touch"
+          href="/contact"
+          className="btn btn-primary rounded-pill mt-3"
+        />
       </div>
     </div>
   );

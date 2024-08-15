@@ -54,39 +54,18 @@ const testimonialList = [
   },
   {
     id: 2,
-    name: 'Cory Zamora',
-    image: '/img/avatars/te2.jpg',
-    designation: 'Marketing Specialist',
-    review: `Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia.`
-  },
-  {
-    id: 3,
     name: 'Nikolas Brooten',
     image: '/img/avatars/te3.jpg',
     designation: 'Sales Manager',
     review: `Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum. Donec sed odio dui.`
   },
   {
-    id: 4,
-    name: 'Coriss Ambady',
-    image: '/img/avatars/te4.jpg',
-    designation: 'Financial Analyst',
-    review: `Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor`
-  },
-  {
-    id: 5,
+    id: 3,
     name: 'Laura Widerski',
     image: '/img/avatars/te5.jpg',
     designation: 'Sales Specialist',
     review: `Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient.`
   },
-  {
-    id: 6,
-    name: 'Jackie Sanders',
-    image: '/img/avatars/te6.jpg',
-    designation: 'Jackie Sanders',
-    review: `Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus magnis dis montes, nascetur ridiculus mus. Donec sed odio.`
-  }
 ];
 
 const jobList = [
