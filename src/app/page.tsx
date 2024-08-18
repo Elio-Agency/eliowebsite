@@ -33,7 +33,7 @@ export default function Demo19() {
         <section className="wrapper bg-light">
           <div className="container">
             <section className="wrapper bg-light">
-              <div className="container pb-16 pt-8 pt-md-10 pb-md-18">
+              <div className="container pb-10 pt-8 pt-md-10 pb-md-12">
                 {/* ========== latest project section ========== */}
                 <Services10 />
 
@@ -45,7 +45,7 @@ export default function Demo19() {
             </section>
             {/* ========== reviews section ========== */}
             <section className="wrapper mt-2">
-              <div className="container pb-28 py-md-14">
+              <div className="container pb-md-12">
                 <div className="row position-relative">
                   <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
                     <h1 className="fs-15 text-uppercase text-primary mb-3">
@@ -69,19 +69,6 @@ export default function Demo19() {
                 </div>
               </div>
             </section>
-          </div>
-        </section>
-
-        <section className="wrapper bg-light">
-          <div className="container py-16 py-md-18">
-            {/* ========== testimonial section ========== */}
-            {/* <Testimonial16 /> */}
-
-            {/* ========== latest project section ========== */}
-            <Portfolio10 />
-
-            {/* ========== what make us section ========== */}
-            {/* <About20 /> */}
           </div>
         </section>
 

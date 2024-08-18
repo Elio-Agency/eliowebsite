@@ -10,9 +10,9 @@ export default function Facts4() {
       <div className="container pt-0 pb-14 pt-md-16 pb-md-18">
         <div className="row">
           <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-            <h2 className="fs-15 text-uppercase text-muted mb-3">Join Our Community</h2>
+            <h2 className="fs-15 text-uppercase text-muted mb-3">Get In Touch</h2>
             <h3 className="display-4 mb-8 px-lg-12">
-              We are trusted by over 100+ clients. Join them now and grow your business.
+              We are trusted by over 100+ clients. Join them now and make software work for you.
             </h3>
           </div>
         </div>

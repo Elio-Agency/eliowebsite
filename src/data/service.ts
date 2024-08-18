@@ -80,28 +80,28 @@ export const techServiceList = [
     linkUrl: '#',
     title: 'Application Development',
     icon: 'uil-laptop-cloud',
-    description: `Custom applications that will service your business needs and integrate into your existing infrastructure.`
+    description: `Creating custom software solutions that meet business needs, ensuring efficiency, scalability, and performance.`
   },
   {
     id: 2,
     linkUrl: '#',
     title: 'Analytics & Reporting',
     icon: 'uil-chart-line',
-    description: `Reporting and insights for your business to help you understand your customers and make better decisions.`
+    description: `Transforming data into actionable insights with real-time reports and in-depth analysis for better decision-making.`
   },
   {
     id: 3,
     linkUrl: '#',
     title: 'Wireframing/UX Design',
     icon: 'uil-apps',
-    description: `Website design and application design to ensure your customers have the best experience possible.`
+    description: `Designing intuitive user interfaces with a focus on seamless user experiences, from concept to completion.`
   },
   {
     id: 4,
     linkUrl: '#',
     title: 'AI/ML Models',
     icon: 'uil-code-branch',
-    description: `AI models to improve your business processes and machine learning models to help improve decisions.`
+    description: `Developing intelligent algorithms that leverage data to automate processes and provide predictive insights.`
   }
 ];
 

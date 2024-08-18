@@ -47,24 +47,24 @@ const facilities = [
 const testimonialList = [
   {
     id: 1,
-    name: 'Coriss Ambady',
+    name: 'Paul Pantin',
     image: '/img/avatars/te1.jpg',
-    designation: 'Financial Analyst',
-    review: `Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis.`
+    designation: 'CEO of eZone Logistics',
+    review: `We contracted Elio to build an application to handle our shipment requests when launching in the UK. Our custom application has streamlined operations significantly. The team's ability to understand our unique logistics challenges was impressive. Excellent work from start to finish.`
   },
   {
     id: 2,
-    name: 'Nikolas Brooten',
+    name: 'Nick Maytum',
     image: '/img/avatars/te3.jpg',
-    designation: 'Sales Manager',
-    review: `Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum. Donec sed odio dui.`
+    designation: 'CEO Specialist Investments',
+    review: `We needed a website that looked modern and impressive given our industry. The solution they developed was outstanding and exactly fit the brief. It perfectly aligns with our brand and provides an intuitive user experience. Highly recommend their professionalism and expertise.`
   },
   {
     id: 3,
-    name: 'Laura Widerski',
+    name: 'Lisa Hannington',
     image: '/img/avatars/te5.jpg',
-    designation: 'Sales Specialist',
-    review: `Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient.`
+    designation: 'CEO of Optical Gas Imaging',
+    review: `It is not easy to find readily availble tech that fits exactly what we need. We asked Elio to build us a custom reporting platform. The application they built was excellent. It was delivered on time, met all our requirements, and has been a game changer. Fantastic team to work with.`
   },
 ];
 

@@ -3,7 +3,7 @@ import { ServiceCard5 } from "components/reuseable/service-cards";
 
 export default function Services10() {
   return (
-    <div className="row gx-lg-0 gy-10 mb-15 mb-md-18 align-items-center">
+    <div className="row gx-lg-0 gy-10 mb-10 mb-md-12 align-items-center">
       <div className="col-lg-6">
         <div className="row g-6 text-center">
           <div className="col-md-6">

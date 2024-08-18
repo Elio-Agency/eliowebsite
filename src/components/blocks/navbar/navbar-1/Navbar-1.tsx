@@ -65,7 +65,7 @@ export default function NavbarOne({
   // all main header contents
   const headerContent = (
     <Fragment>
-      <div className="navbar-brand w-100">
+      <div className="navbar-brand py-4 w-100">
         <NextLink
           href="/"
           title={
@@ -84,7 +84,7 @@ export default function NavbarOne({
         className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
       >
         <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white fs-30 mb-0">Sandbox</h3>
+          <h3 className="text-white fs-30 mb-0">Elio</h3>
           <button
             type="button"
             aria-label="Close"
@@ -99,10 +99,10 @@ export default function NavbarOne({
             {/* <About /> */}
 
             {/*  ===================== pages nav item  ===================== */}
-            <PagesNavItem />
+            {/* <PagesNavItem /> */}
 
             {/* ===================== projects nav item  ===================== */}
-            <ProjectsNavItem />
+            {/* <ProjectsNavItem /> */}
 
             {/* ===================== blog nav item ===================== */}
             {/* <BlogNavItem /> */}

@@ -6,7 +6,7 @@ export default function Hero19() {
       className="wrapper image-wrapper bg-image bg-overlay bg-overlay-500"
       style={{ backgroundImage: "url(/img/photos/construction.png)" }}>
         
-      <div className="container pt-17 pt-md-18 pb-md-17 text-center">
+      <div className="container pt-17 pt-md-18 pb-md-10 text-center">
         <div className="row">
           <div className="col-lg-8 col-xl-7 col-xxl-6 mx-auto">
             <h1 className="display-1 text-white fs-60 mb-4 px-md-15 px-lg-0" style={slideInDownAnimate("0ms")}>

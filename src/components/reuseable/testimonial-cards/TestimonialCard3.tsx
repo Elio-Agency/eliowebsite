@@ -18,7 +18,7 @@ export default function TestimonialCard3({
   review,
   shadow,
   hideRating,
-  designation
+  designation,
 }: TestimonialCard3Props) {
   return (
     <div className={clsx({ card: true, "shadow-lg": shadow })}>
@@ -29,11 +29,7 @@ export default function TestimonialCard3({
           <p>“{review}”</p>
 
           <div className="blockquote-details">
-            <figure className="rounded-circle w-12 overflow-hidden">
-              <Image alt="team" width={100} height={100} src={image} className="w-100 h-auto" />
-            </figure>
-
-            <div className="info">
+            <div>
               <h5 className="mb-0">{name}</h5>
               <p className="mb-0">{designation}</p>
             </div>
