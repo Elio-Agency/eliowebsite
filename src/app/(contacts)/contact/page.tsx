@@ -28,14 +28,18 @@ export default function ContactThree() {
 
       <main className="content-wrapper">
         {/* ========== page title section ========== */}
-        <section className="wrapper bg-dark text-white mb-8">
+
+        <section
+          className="wrapper bg-dark text-white mb-8"
+          style={{ backgroundImage: "url(/img/photos/bg2.jpg)" }}
+        >
           <div className="container pt-18 pt-md-20 pb-8 pb-md-8 text-center">
             <div className="row">
               <div className="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
                 <h1 className="display-1 text-white mb-3">Get in Touch</h1>
                 <p className="lead px-xl-10 px-xxl-10">
-                  Reach out to us from our contact form and
-                  we will get back to you shortly.
+                  Reach out to us from our contact form and we will get back to
+                  you shortly.
                 </p>
               </div>
             </div>
