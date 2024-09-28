@@ -16,13 +16,6 @@ export default function ContactThree() {
           stickyBox={false}
           logoAlt="elio-logo-small-white"
           navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark"
-          // button={
-          //   <NextLink
-          //     title="Contact"
-          //     href="contact"
-          //     className="btn btn-sm btn-primary rounded-pill"
-          //   />
-          // }
         />
       </header>
 

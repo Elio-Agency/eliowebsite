@@ -73,7 +73,6 @@ export default function Services10() {
           <li>Logistics Businesses</li>
           <li>Plumbing Companies</li>
           <li>Leak Detection Services</li>
-          <li>Tattoo Artists</li>
         </ul>
 
         <NextLink

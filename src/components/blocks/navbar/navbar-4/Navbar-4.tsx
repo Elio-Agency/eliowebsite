@@ -19,7 +19,7 @@ type Navbar4Props = { navClassName?: string; onePageDemo?: boolean };
 
 export default function Navbar4({
   onePageDemo,
-  navClassName = "navbar navbar-expand-lg extended extended-alt navbar-light navbar-bg-light"
+  navClassName = "navbar navbar-expand-lg extended extended-alt navbar-light navbar-bg-light",
 }: Navbar4Props) {
   useNestedDropdown();
   const sticky = useSticky(350);
@@ -30,7 +30,9 @@ export default function Navbar4({
 
   return (
     <Fragment>
-      <div style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }} />
+      <div
+        style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }}
+      />
 
       <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>
         <div className="container flex-lg-column">
@@ -38,7 +40,13 @@ export default function Navbar4({
             <div className="navbar-brand">
               <NextLink
                 href="/"
-                title={<img alt="logo" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" />}
+                title={
+                  <img
+                    alt="logo"
+                    src="/img/logo-dark.png"
+                    srcSet="/img/logo-dark@2x.png 2x"
+                  />
+                }
               />
             </div>
           </div>
@@ -52,7 +60,8 @@ export default function Navbar4({
             <div
               className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
               data-bs-scroll="true"
-              id="offcanvas-nav">
+              id="offcanvas-nav"
+            >
               <div className="offcanvas-header d-lg-none">
                 <h3 className="text-white fs-30 mb-0">Sandbox</h3>
                 <button
@@ -69,11 +78,14 @@ export default function Navbar4({
                 {/* ============= show contact info in the small device sidebar ============= */}
                 <div className="offcanvas-footer d-lg-none">
                   <div>
-                    <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+                    <NextLink
+                      title="contact@elio.agency"
+                      className="link-inverse"
+                      href="mailto:contact@elio.agency"
+                    />
                     <br />
-                    <NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+                    <NextLink href="tel:07557910006" title="+44 7557 910 006" />
                     <br />
-                    <SocialLinks />
                   </div>
                 </div>
               </div>
@@ -84,14 +96,22 @@ export default function Navbar4({
               <ul className="navbar-nav flex-row align-items-center ms-auto">
                 {/* ============= info button ============= */}
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info">
+                  <a
+                    className="nav-link"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvas-info"
+                  >
                     <i className="uil uil-info-circle" />
                   </a>
                 </li>
 
                 {/* ============= search icon button ============= */}
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search">
+                  <a
+                    className="nav-link"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvas-search"
+                  >
                     <i className="uil uil-search" />
                   </a>
                 </li>
@@ -100,7 +120,8 @@ export default function Navbar4({
                   <button
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvas-nav"
-                    className="hamburger offcanvas-nav-btn">
+                    className="hamburger offcanvas-nav-btn"
+                  >
                     <span />
                   </button>
                 </li>

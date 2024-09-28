@@ -15,12 +15,6 @@ import Signup from "../components/signup";
 import MiniCart from "../components/mini-cart";
 import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
-import BlogNavItem from "../components/blog-nav-item";
-import DemosNavItem from "../components/demos-nav-item";
-import PagesNavItem from "../components/services-nav-item";
-import BlocksNavItem from "../components/blocks-nav-item";
-import ProjectsNavItem from "../components/projects-nav-item";
-import DocumentationNavItem from "../components/documentation-nav-item";
 
 // ===================================================================
 interface NavbarProps {
@@ -56,7 +50,7 @@ export default function NavbarOne({
   const navbarRef = useRef<HTMLElement | null>(null);
 
   // dynamically render the logo
-  const logo = sticky ? "elio-logo-small" : logoAlt ?? "elio-logo-small";
+  const logo = sticky ? "elio-logo-white" : logoAlt ?? "elio-logo-white";
 
   // dynamically added navbar className
   const fixedClassName =

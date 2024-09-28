@@ -14,7 +14,6 @@ import BlocksNavItem from "../components/blocks-nav-item";
 import ProjectsNavItem from "../components/projects-nav-item";
 import ContactNavItem from "../components/contact-nav-item";
 
-
 // ===================================================================
 interface Navbar3Props {
   logoAlt: string;
@@ -26,7 +25,7 @@ interface Navbar3Props {
 export default function Navbar3({
   logoAlt,
   stickyBox = true,
-  navClassName = "navbar navbar-expand-lg center-logo transparent position-absolute navbar-dark"
+  navClassName = "navbar navbar-expand-lg center-logo transparent position-absolute navbar-dark",
 }: Navbar3Props) {
   useNestedDropdown();
   const sticky = useSticky(350);
@@ -37,15 +36,26 @@ export default function Navbar3({
 
   const logos = (
     <>
-      <img className="logo-dark h-10" src={`/img/elio-logo-purple.png`} /* srcSet={`/img/${logoAlt}@2x.png 2x`} */ alt="logo-purple" />
-      <img className="logo-light h-10" src="/img/elio-logo-white.png" /* srcSet="/img/logo-light@2x.png 2x" */ alt="logo-white" />
+      <img
+        className="logo-dark h-10"
+        src={`/img/elio-logo-purple.png`}
+        /* srcSet={`/img/${logoAlt}@2x.png 2x`} */ alt="logo-purple"
+      />
+      <img
+        className="logo-light h-10"
+        src="/img/elio-logo-white.png"
+        /* srcSet="/img/logo-light@2x.png 2x" */ alt="logo-white"
+      />
     </>
   );
-  
 
   return (
     <Fragment>
-      {stickyBox && <div style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }} />}
+      {stickyBox && (
+        <div
+          style={{ paddingTop: sticky ? navbarRef.current?.clientHeight : 0 }}
+        />
+      )}
 
       <nav ref={navbarRef} className={sticky ? fixedClassName : navClassName}>
         <div className="container justify-content-between align-items-center">
@@ -60,7 +70,8 @@ export default function Navbar3({
                   <button
                     data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvas-nav"
-                    className="hamburger offcanvas-nav-btn">
+                    className="hamburger offcanvas-nav-btn"
+                  >
                     <span />
                   </button>
                 </li>
@@ -72,10 +83,15 @@ export default function Navbar3({
             <div
               id="offcanvas-nav"
               data-bs-scroll="true"
-              className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+              className="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
+            >
               <div className="offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15">
-                <NextLink href="/" className="transition-none d-none d-lg-flex" title={logos} />
-                <h3 className="text-white fs-30 mb-0 d-lg-none">Sandbox</h3>
+                <NextLink
+                  href="/"
+                  className="transition-none d-none d-lg-flex"
+                  title={logos}
+                />
+                <h3 className="text-white fs-30 mb-0 d-lg-none">Elio</h3>
                 <button
                   type="button"
                   aria-label="Close"
@@ -86,7 +102,6 @@ export default function Navbar3({
 
               <div className="w-100 order-1 order-lg-0 d-lg-flex offcanvas-body">
                 <div className="navbar-nav ms-lg-auto">
-
                   {/*  ===================== pages nav item  ===================== */}
                   {/* <PagesNavItem /> */}
 
@@ -109,11 +124,14 @@ export default function Navbar3({
               <div className="offcanvas-body d-lg-none order-4 mt-auto">
                 <div className="offcanvas-footer">
                   <div>
-                    <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+                    <NextLink
+                      title="contact@elio.agency"
+                      className="link-inverse"
+                      href="mailto:contact@elio.agency"
+                    />
                     <br />
-                    <NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+                    <NextLink href="tel:07557910006" title="+44 7557 910 006" />
                     <br />
-                    <SocialLinks />
                   </div>
                 </div>
               </div>
