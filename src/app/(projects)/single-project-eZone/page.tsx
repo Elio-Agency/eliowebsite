@@ -7,7 +7,7 @@ import { Fragment } from "react";
 import useLightBox from "hooks/useLightBox";
 // GLOBAL CUSTOM COMPONENTS
 import { Footer8 } from "components/blocks/footer";
-import Navbar from "components/blocks/navbar/navbar-1";
+import Navbar from "components/blocks/navbar/navbar-3";
 import FigureImage from "components/reuseable/FigureImage";
 import NextLink from "components/reuseable/links/NextLink";
 import ProjectDetailsNavigation from "components/common/ProjectDetailsNavigation";
@@ -23,10 +23,7 @@ export default function ProjectDetails() {
     <Fragment>
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
-        <Navbar
-          language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
-        />
+        <Navbar logoAlt="logo-dark" stickyBox={false} />
       </header>
 
       <main className="content-wrapper">
