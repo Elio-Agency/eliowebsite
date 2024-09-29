@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { Link as ScrollLink } from "react-scroll";
 import clsx from "clsx";
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "components/blocks/navbar/navbar-1";
+import Navbar from "components/blocks/navbar/navbar-3";
 import PageProgress from "components/common/PageProgress";
 import NextLink from "components/reuseable/links/NextLink";
 // GLOBAL CUSTOM HOOKS
@@ -128,10 +128,7 @@ export default function DocLayout({
       <div className="content-wrapper">
         {/* ========== header ========== */}
         <header className="wrapper bg-soft-primary">
-          <Navbar
-            language
-            button={<NextLink title="Contact" href="/contact-1" className="btn btn-sm btn-primary rounded-pill" />}
-          />
+          <Navbar logoAlt="logo-dark" stickyBox={false} />
         </header>
 
         {/* ========== page heading ========== */}

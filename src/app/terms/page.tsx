@@ -3,7 +3,7 @@
 import { Fragment } from "react";
 import { Element, Link as ScrollLink } from "react-scroll";
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "components/blocks/navbar/navbar-1";
+import Navbar from "components/blocks/navbar/navbar-3";
 import { Footer8 } from "components/blocks/footer";
 import Breadcrumb from "components/reuseable/Breadcrumb";
 import NextLink from "components/reuseable/links/NextLink";
@@ -27,10 +27,7 @@ export default function Terms() {
     <Fragment>
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
-        <Navbar
-          language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
-        />
+        <Navbar logoAlt="logo-dark" stickyBox={false} />
       </header>
 
       <main className="content-wrapper">

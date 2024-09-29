@@ -4,7 +4,7 @@ import { Fragment, PropsWithChildren } from "react";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 // GLOBAL CUSTOM COMPONENTS
-import Navbar from "components/blocks/navbar/navbar-1";
+import Navbar from "components/blocks/navbar/navbar-3";
 import NextLink from "components/reuseable/links/NextLink";
 
 const filters = [
@@ -37,10 +37,7 @@ export default function BlockLayout({ children }: PropsWithChildren) {
       <div className="content-wrapper">
         {/* ========== header ========== */}
         <header className="wrapper bg-soft-primary">
-          <Navbar
-            language
-            button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
-          />
+          <Navbar logoAlt="logo-dark" stickyBox={false} />
         </header>
 
         {/* ========== page heading ========== */}

@@ -1,12 +1,12 @@
 import { Fragment } from "react";
-import Navbar from "components/blocks/navbar/navbar-1";
+import Navbar from "components/blocks/navbar/navbar-3";
 
 export default function Blank() {
   return (
     <Fragment>
       {/* ========== header section ========== */}
       <header className="wrapper mb-1">
-        <Navbar social navClassName="navbar navbar-expand-lg center-nav transparent navbar-light caret-none" />
+        <Navbar logoAlt="logo-dark" stickyBox={false} />
       </header>
 
       <main className="content-wrapper">
