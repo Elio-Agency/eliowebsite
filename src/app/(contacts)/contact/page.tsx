@@ -1,22 +1,16 @@
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
 import { Footer8 } from "components/blocks/footer";
-import { Contact2 } from "components/blocks/contact";
-import Navbar from "components/blocks/navbar/navbar-1";
 import ContactForm from "components/common/ContactForm";
 import NextLink from "components/reuseable/links/NextLink";
+import Navbar3 from "components/blocks/navbar/navbar-3";
 
 export default function ContactThree() {
   return (
     <Fragment>
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
-        <Navbar
-          language
-          stickyBox={false}
-          logoAlt="elio-logo-small-white"
-          navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark"
-        />
+        <Navbar3 logoAlt="logo-dark" stickyBox={false} />
       </header>
 
       <main className="content-wrapper">

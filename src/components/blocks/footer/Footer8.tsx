@@ -28,7 +28,7 @@ export default function Footer8() {
             </div>
           </div>
 
-          <div className="col-md-6 col-lg-6">
+          {/* <div className="col-md-6 col-lg-6">
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Our Newsletter</h4>
               <p className="mb-5">
@@ -96,7 +96,7 @@ export default function Footer8() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

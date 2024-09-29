@@ -2,20 +2,17 @@ import Image from "next/image";
 import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
 import { Footer8 } from "components/blocks/footer";
-import Navbar from "components/blocks/navbar/navbar-1";
 import NextLink from "components/reuseable/links/NextLink";
 // IMAGES
 import notFoundImage from "../../public/img/illustrations/404.png";
+import Navbar3 from "components/blocks/navbar/navbar-3/Navbar-3";
 
 export default function NotFound() {
   return (
     <Fragment>
       {/* ========== header section ========== */}
       <header className="wrapper bg-light">
-        <Navbar
-          language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
-        />
+        <Navbar3 logoAlt="logo-dark" stickyBox={false} />
       </header>
 
       <main className="content-wrapper">
