@@ -22,12 +22,13 @@ import "glightbox/dist/css/glightbox.css";
 import "plugins/scrollcue/scrollCue.css";
 // Bootstrap and custom scss
 import "assets/scss/style.scss";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Elio Agency",
-  description: "Digital Agency for Small to Medium Sized Businesses",
+  description: "Software Development for Service BAsed Businesses",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -39,6 +40,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         </ScrollCue>
 
         <PageProgress />
+        <GoogleTagManager gtmId="GTM-T6XGBKW"/>
       </body>
     </html>
   );
